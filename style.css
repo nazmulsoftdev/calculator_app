@@ -1,0 +1,91 @@
+*{margin: 0px; padding: 0px;}
+
+/* Body Section */
+
+body{
+background-color: #2f3640;
+}
+
+
+/* form section style */
+
+form{
+max-width: 300px;
+height: 330px;
+padding: 20px;
+background-color: #1e272e;
+margin: auto;
+border-radius: 10px;
+margin-top: 100px;
+} 
+
+form input[type="text"]{
+  width: 100%;
+  padding: 13px;
+  box-sizing: border-box;  
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 7px;
+}
+
+form hr{
+    margin-bottom: 10px;
+    padding: 1px;
+    border-radius: 3px;
+    background-color: #dcdde1;
+}
+
+form .buttonGroup1 input[type="button"]{
+    width: 24%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #FC427B;
+    color: #ffff;
+    cursor: pointer;
+}
+
+form .buttonGroup2 input[type="button"]{
+    width: 24%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #FC427B;
+    color: #ffff;
+    cursor: pointer;
+}
+
+form .buttonGroup3 input[type="button"]{
+    width: 24%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #FC427B;
+    color: #ffff;
+    cursor: pointer;
+}
+
+form .buttonGroup4 input[type="button"]{
+    width: 24%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #FC427B;
+    color: #ffff;
+    cursor: pointer;
+}
+
+form .buttonGroup5 input[type="button"]{
+    width: 24%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #FC427B;
+    color: #ffff;
+    cursor: pointer;
+}

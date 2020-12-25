@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <!-- Calcluter App -->
+
+    <form name="calcluter">
+
+        <input type="text" name="screen" />
+       
+        <hr>
+       <div class="buttonGroup1">
+        <input type="button" value="&radic;" onclick="calcluter.screen.value = Math.sqrt(calcluter.screen.value)"/>
+        <input type="button" value="CE" onclick="calcluter.screen.value = '' "/>
+        <input type="button" value="C" onclick="calcluter.screen.value = '' "/>
+        <input type="button" value="&larr;" onclick="calcluter.screen.value = calcluter.screen.value.slice(0,-1) "/>
+       </div>
+
+       <br>
+       
+       <div class="buttonGroup2">
+        <input type="button" value="7" onclick="calcluter.screen.value = calcluter.screen.value + '7' "/>
+        <input type="button" value="8" onclick="calcluter.screen.value = calcluter.screen.value + '8' "/>
+        <input type="button" value="9" onclick="calcluter.screen.value = calcluter.screen.value + '9' "/>
+        <input type="button" value="+" onclick="calcluter.screen.value = calcluter.screen.value + '+' "/>
+       </div>
+       
+       <br>
+      
+       <div class="buttonGroup3">
+        <input type="button" value="4" onclick="calcluter.screen.value = calcluter.screen.value + '4' "/>
+        <input type="button" value="5" onclick="calcluter.screen.value = calcluter.screen.value + '5' "/>
+        <input type="button" value="6" onclick="calcluter.screen.value = calcluter.screen.value + '6' "/>
+        <input type="button" value="-" onclick="calcluter.screen.value = calcluter.screen.value + '-' "/>
+       </div>
+       
+       <br>
+       
+       <div class="buttonGroup4">
+        <input type="button" value="1" onclick="calcluter.screen.value = calcluter.screen.value + '1' "/>
+        <input type="button" value="2" onclick="calcluter.screen.value = calcluter.screen.value + '2' "/>
+        <input type="button" value="3" onclick="calcluter.screen.value = calcluter.screen.value + '3' "/>
+        <input type="button" value="*" onclick="calcluter.screen.value = calcluter.screen.value + '*' "/>
+       </div>
+       
+       <br>
+       
+       <div class="buttonGroup5">
+        <input type="button" value="0" onclick="calcluter.screen.value = calcluter.screen.value + '0' "/>
+        <input type="button" value="." onclick="calcluter.screen.value = calcluter.screen.value + '.' "/>
+        <input type="button" value="=" onclick="calcluter.screen.value =  eval(calcluter.screen.value)"/>
+        <input type="button" value="/" onclick="calcluter.screen.value = calcluter.screen.value + '/' "/>
+       </div>
+       
+       
+       </form>
+
+</body>
+</html>
